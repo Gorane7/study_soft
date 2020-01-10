@@ -49,7 +49,7 @@ def study():
         return
     lessons = get_lessons(course)
     while True:
-        order = input("Enter any letter to stop: ")
+        order = input("Press Enter to continue, anything else to stop lesson: ")
         if order != "":
             save_lessons()
             return

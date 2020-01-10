@@ -13,7 +13,9 @@ Probleemid: pole piisavalt infot, nt kas firma aktsia hind tõuseb või mitte. J
 Pos täisarvude hulk sama võimas kui täisarvude hulk, kuna saab üks-ühesesse vastavusse seada. Murdarvude hulk sama võimas kui positiivsete täisarvude hulk, tabelis saab diagonaalselt liikudes kõik seada üks-ühesesse vastavusse.
 
 5: Reaalarvude suurem võimsus kui täisarvude võimsus (cantori teoreem)
-Katki
+Pmst see vastavusse panemise siiruviiru värk R arvudegadocuments enam ei tööta, sest irratsionaalarve ei saa sinna kuidagi panna, sest me ei tea täpselt kus nad asuvad. Ja see cantori teoreem võib segadusse ajav olla: “miks siis cantori teoreemi ratsionaalarvudega kasutada ei saa?” - sest me ei saa kindlad olla, et cantori diagonaal meile ratsionaalarvu teeb. Kuna ratsionaalarve on infinite, siis ka see cantori diagonaalne joon on lõpmatult pikk ja lõpmatult pikad numbrid ei saa olla juba definitsiooni järgi ratsionaalsed.
+Pealkiri võiks olla “irratsionaalarvude suurem võimsus kui ratsionaalarvude”, sest see on see koht, kus tuleb võimsuste vahe sisse.
+
 
 6: Peatumisprobleem
 Kas on võimalik teha programm, mis saab sisendiks programmi ning sisendi sellele programmile ja otsustab, kas antud programm peatub kunagi või mitte.

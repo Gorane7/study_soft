@@ -29,7 +29,7 @@ Wait: protsess “ootab”, et ressursijaotur selle protsessi protsessorisse lae
 Sisendsignaal protsessorile, mis nõuab kohest vastust. Protsessor salvestab enda seisu, teeb interrupt evendi ära ning jätkab peale seda oma tööd.
 
 11: Virtuaalmälu
-Mäluhaldustehnoloogia, kus põhimällu kopeeritakse ainuld need osad, mida programmil parajasti vaja on, muid osasid hoitakse kõvakettal. Lubab jooksutada programme, mis nõuavad rohke mälu, kui põhimälus füüsiliselt on.
+Mäluhaldustehnoloogia, kus põhimällu kopeeritakse ainult need osad, mida programmil parajasti vaja on, muid osasid hoitakse kõvakettal. Lubab jooksutada programme, mis nõuavad rohkem mälu, kui põhimälus füüsiliselt on.
 
 12: Tekstitöötlus
 Jah

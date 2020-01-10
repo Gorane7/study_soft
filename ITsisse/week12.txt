@@ -1,0 +1,29 @@
+1: Tugev AI
+Ehk lai AI. Suudab teha kõiki ülesandeid, mida inimesedki ning omab mingil määral teadvust.
+
+2: Nõrk AI
+AI, mis suudab mingit kindlat probleemi lahendada, isegi kui ta teeb seda inimesest palju paremini, on ta ikkagi nõrk AI, kui ta on ainult sellele ülesandele spetsialiseerunud.
+
+3: Turingi test
+Turing väitis 30ndatel, et kui inimene ei suuda vesteldes üle 50% täpsusega öelda, kas ta vestleb programmi või inimesega, siis on see programm päriselt intelligentne. Sellele on palju vastuväiteid ning praegused programmid, mis üritavad niimoodi vestlust pidada hoiavad vestlust väga kitsastes piirides ning tegelikult ei saa üldse aru, millest räägivad.
+
+4: Eliza
+1966 kirjutas Joseph Weizenbaum MIT-s ELIZA, mis teeskleb psühhoanalüütikut. ELIZA on lihtne programm, tal on hulk standardlauseid ja standardsõnu, kui kasutaja lauses on mõni standarsõna, siis ta valib mõne standardlause.
+
+5: Minimax
+Teed puu võimalikest mänguseisudest, kus noded on mänguseisud ja ühendused käigud. Uurid mängupuud nii sügavale kui aega on ning sõltuvalt sellest kelle käik sellel sügavusel on hakkad tagurpidi simuleerima. Eeldad, et sina teed alati parima käigu sinu jaoks ning vastane teeb alati sinu jaoks halvima käigu.
+
+6: Alpha-beta
+Minimaxi optimeerimisviis. Osasid harusid ei vaadata, kui eelnevalt on kindlaks tehtud, et mängija saab teist haru pidi parema valiku teha.
+
+7: Masinõpe
+Idee, et programmid või süsteemid muutuvad paremaks või arenevad, ilma et neid otseselt üksikasjadeni välja programmeeritakse.
+
+8: IBM Watson
+Watson on küsimustele vastav süsteem, mis kasutab ära masinõpet küsimuste mõistmiseks ja nendele vastamiseks. 2011 aastal võitis Kuldvillaku parimate vastaste vastu.
+
+9: Wolfram Alpha
+On põhimõtteliselt otsingumootor faktiliste (loogika, numbrid, statistika) päringute jaoks, ainult et otsingute asemel annab ta ise vastuse (vastusemootor).
+
+10: Mingit sorti ülesande lahendamine praeguste tehisintellektisüsteemidega
+AI on väga solid inimeste igapäevaelu lihtsustamises ja spetsialistidele abiks töö juures. Kõige suurema fookusega arendatakse täna inimkeele mõistmist ja selle kasutamist. Praegu ei ole keeleline tase veel inimese omaga võrreldav. AI’l puudub momendil igasugune kunstiline, kõrgemalt loov, või abstraktne võimekus.

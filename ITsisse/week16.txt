@@ -1,0 +1,47 @@
+1: http://lambda.ee/w/images/a/ab/Loogikasissejuhatus_raamat.html
+y
+
+2: https://www.csee.umbc.edu/courses/471/papers/turing.pdf
+y
+
+3: https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/
+y
+
+4: http://paulgraham.com/hp.html
+Y
+
+5: https://www.mit.edu/~xela/tao.html
+Y
+
+6: http://www.paulgraham.com/start.html
+Y
+
+7: http://www.paulgraham.com/gh.html
+Y
+
+8: https://www.joelonsoftware.com/2002/02/13/the-iceberg-secret-revealed/
+Y
+
+9: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
+Y
+
+10: http://www.developerdotstar.com/mag/articles/reeves_design.html
+Y
+
+11: http://www.developerdotstar.com/mag/articles/reeves_13yearslater.html
+Y
+
+12: http://www.gnu.org/philosophy/free-sw.html
+Y
+
+13: http://www.gnu.org/philosophy/selling.html
+Y
+
+14: http://worrydream.com/refs/Brooks-NoSilverBullet.pdf
+Y
+
+15: http://blog.rongarret.info/2006/10/top-ten-geek-business-myths.html
+Y
+
+16:https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/
+Y

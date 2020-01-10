@@ -1,0 +1,11 @@
+1: Peamised masinõppe liigid
+Supervised learning, reinforcement learning, unsupervised learning
+
+2: Supervised learning uses
+It has applications in ranking, recommendation systems, visual identity tracking, face verification, and speaker verification.
+
+3: Reinforcement learning uses
+A central application of unsupervised learning is in the field of density estimation in statistics, though unsupervised learning encompasses other domains involving summarizing and explaining data features
+
+4: Unsupervised learning uses
+Reinforcement learning algorithms are used in autonomous vehicles or in learning to play a game against a human opponent

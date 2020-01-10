@@ -26,7 +26,7 @@ IBM 3340 kõvaketas. 1973 aastal. 70 MB.
 1969-1971 UNIX algus. ALGOL 1958/1960. BCPL põhines ALGOL-il. B põhines BCPL-il. C põhines B-l. C-d arendati 1969-1973. 1978: “The C programming language”.
 
 10: Microsofti algus
-1975: Bill Gates ja Paul Allen litsentseerivad enda tehtud BASIC-u MITS-ile, sellest saab esimene programmeerimiskeel, mis on tehtud personaalarvuti jaoks. Bill Gates ja Paul Allen asutavad Micro-Soft’i, hiljem kaotatakse sidekriips ära. MicroSoft BASIC 2.0 Altair 8800 jaoks, 4K ja 8K versioonid. Bill Gates kirjutab avaliku kirja, kus kaeblel tarkvara piraatluse üle. 1976 kirjutab Bill Gates teise sellise kirja. Mõlemad avaldati Altairi uudistekirjas. Microsoft palkab esimese töölise: Marc McDonald.
+1975: Bill Gates ja Paul Allen litsentseerivad enda tehtud BASIC-u MITS-ile, sellest saab esimene programmeerimiskeel, mis on tehtud personaalarvuti jaoks. Bill Gates ja Paul Allen asutavad Micro-Soft’i, hiljem kaotatakse sidekriips ära. MicroSoft BASIC 2.0 Altair 8800 jaoks, 4K ja 8K versioonid. Bill Gates kirjutab avaliku kirja, kus kaebles tarkvara piraatluse üle. 1976 kirjutab Bill Gates teise sellise kirja. Mõlemad avaldati Altairi uudistekirjas. Microsoft palkab esimese töölise: Marc McDonald.
 
 11: Apple algus
 1976 Steve Wozniak ja Steve Jobs teevad Apple I arvuti. Sama aasta 1. aprillil asutavad Apple Computer Company. Apple I arvutit müüakse kit-ina ning maksab 666.66 dollarit. Paul Terrell tellib 50 Apple arvutit oma Byte Shopi jaoks. 1976 hakkab Steve Wozniak Apple II kallal töötama. Steve Wozniak jääb Hewlett-Packardi, aga varsti mõtleb ümber, et peaks ikkagi täielikult Apple Computerisse minema.

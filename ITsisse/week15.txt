@@ -1,0 +1,27 @@
+1: Mida peab hääletamissüsteem tagama
+Hääled loetakse õieti kokku.
+Hääled on anonüümsed.
+Ainult hääletamisõiguslikud saavad hääletada, ei saa hääletada topelt, ei saa hääletamist delegeerida.
+Hääletajaid ei diskrimineerita
+"… ja hea oleks häälte ostmist takistada jms ..."
+
+2: Miks on (e/i)-hääletamine keerulisem kui internetipangandus
+Internetipanga toimingud ei ole anonüümsed: kõik
+identifitseeritakse, logitakse ja vajadusel saab minna
+Kohtusse.
+
+3: Mis on topeltümbriku süsteem
+Sinu hääl on sisemises ümbrikus: seal ei ole sinu nime
+- Sinu nimi on välisel ümbrikul
+- Välimise ümbriku järgi sind registreeritakse hääletajaks, võetakse välja sisemine ümbrik ja pannakse valimisurni.
+
+4: Kuidas on topeltümbriku süsteem Eesti i-hääletusel implementeeritud
+hääletaja: [Digitaalselt allkirjastatud ümbrik (Avaliku võtmega krüpteeritud hääl)]
+riik:
+eraldatakse [] ja ()
+loetakse üle allkirjastajad [] järgi
+loetakse üle antud hääled () järgi
+avatakse () privaat võtmega ning loetakse üle tulemused
+
+5: Mis on i-hääletamisel hääle töötlemise põhisammud ehk mida protsessi käigus vaja teha
+hääleõiguse kontrollimine, korduvad hääletused tavalise ja e-hääletuse vahel ära kaotada, hääle anonümiseerimine

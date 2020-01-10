@@ -1,0 +1,50 @@
+1: http://www.paulgraham.com/start.html
+Y
+
+2: http://www.paulgraham.com/gh.html
+Y
+
+3: https://www.joelonsoftware.com/2002/02/13/the-iceberg-secret-revealed/
+Y
+
+4: https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/
+Y
+
+5: http://www.developerdotstar.com/mag/articles/reeves_design.html
+Y
+
+6: http://www.developerdotstar.com/mag/articles/reeves_13yearslater.html
+Y
+
+7: http://www.gnu.org/philosophy/free-sw.html
+Y
+
+8: http://www.gnu.org/philosophy/selling.html
+Y
+
+9: http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html
+Y
+
+10: http://blog.rongarret.info/2006/10/top-ten-geek-business-myths.html
+Y
+
+11:https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/
+Y
+
+12: Peamised P2P liigid
+Üks keskne server, mis hoiab infot failide asukohtade kohta (Napster)
+Ilma keskse serverita - päringud saadetakse kõigile edasi (Gnutella)
+Struktureeritult ilma keskse serverita. Päringud on targad ja ei levi liialt “kaugele”
+Tähtsamad arvutid on kesksed serverid väiksematele arvutitele. (Skype)
+Struktureeritult ilma keskse serverita + juhuslikkus + krüpteeritult (TOR)
+Süsteemide vahel liiguvad faili tükid. Tüki saab siis kui ise annad vastu (BitTorrent)
+
+13: Milleks on / mida optimeerib Bittorrent
+Bittorrent on P2P failijagamiseks mõeldud süsteem, mis on efektiivne tänu ideele, et kõik peavad panustama. Idee poolest on igal osalisel soovitud failist mingi väike tükk. Et saad teistelt tükke, peab ise enda tükki teistega jagama. Mida rohkem/kiiremini tükke annad, seda rohkem/kiiremini saad ka vastu. Iga mingi aja tagant antakse kellelegi tasuta tükk, et see keegi saaks ka ise jagama ja tõmbama hakata.
+
+14: Darkneti / TORi põhiidee
+Darknet on lihtsalt peidetud ja anonümiseeritud lehed.
+TORi põhiideeks on saata liiklus läbi mitme host’i, krüpteerides iga sammu juures sõnum (uuesti) ära, et järgmine ei teaks kust sõnum varasemalt tuli. Peale sihtkohta jõudmist teab viimane sõnumisaaja ainult seda, kes temale selle saatis ja saadab koos enda sõnumiga tagasi. Sõnum läheb mööda sama rada tagasi, ilma et keegi teaks, kust see tuli või kuhu see läheb.
+
+15: Mis ja milleks on bittorrentis (bitcoinis?, don’t blame the author, küsimused on sõna-sõnalt aine kodulehelt :D) kaevandamine / proof of work
+On vaja kontrollida, kas tehingud on korrektsed ja siis tehingud blockchaini lisada, aga selle tegemiseks pole kellelgi põhjust ja kui seda kõik teevad, siis tekib palju eri harusid. Esimese probleemi lahendab see, et kontrollijale antakse auhinnaraha, teise lahendab see, et kontroll tehakse kunstlikult raskeks. Krüptohashi leidmine on kiire protseduur, kuid krüpteeritavale tekstile lubatakse lisada suvaline string ning eesmärk on leida hash, mille alguses oleks kindel hulk nulle, ainuke viis selle leidmiseks on katsetada läbi suur hulk erinevaid suvalisi stringe. Bitcoinis aktsepteeritakse hashe, mis algavad 32 nulliga. Preemia käib nii, et sa võid lisada ülekande endale mitte kuskilt kui õnnestub leida õige hash. Bitcoini puhul iga 210 000 blocki tagant preemia väheneb kaks korda. Eeldatakse, et 2140 aastaks jõuab preemia nulli.

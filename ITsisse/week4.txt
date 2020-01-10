@@ -1,0 +1,41 @@
+1: Python
+1989 aastal Guido van Rossum olles Hollandis CWI-s. Järglane ABC programmeerimiskeelele. 2000 aastal releasete Python 2.0, palju uusi featureid, nende hulgas täielik prügikoristus ja Unicode support. Python 3.0, mis oli backwards-incomptabile, releasete 2008 aastal.
+
+2: HTML
+HyperText Markup Language. Tim Berners-Lee arendas CERNis. Esimene World Wide Webi server ja brauser 1991 aastal.
+
+3: HTTP
+Hypertext transfer protocol. Samuti Tim Berners-Lee.
+
+4: Internet eestis
+1989 aasta detsembris panid Andrus Suitsu ja Tarmo Soodla käima Opus-e nimelise P.O. Box-i. 1990 aasta kevadel lülitus Eesti FIDONET Soome kaudu ülemaailmsesse FIDO võrku. Sama aasta sügisel oli piisavalt huvilisi, et Eesti sai omaette FidoNeti regiooni staatuse.
+
+5: Linux
+1991: Linus Torvalds Helsingi ülikooli tudeng hakkab Linuxi kallal hobina tööle. Linux on Minix-ist inpireeritud kernel GNU jaoks.
+
+6: Netscape
+Silicon Graphics kaasasutaja James Clark asutab Mosaic Communicationsi, mis hiljem nimetatakse ümber Netscapeks. 1994 aastal releasetakse Netscape Navigator 1.0 - veebibrauser. Asutajad Clark ja Andreessen. Clark andis 4 miljonit dollarit, Andreessen koodi jms. Microsoft pakub 1 miljoni dollarit et netscape brauserit litsentseerida. Netscape keeldub.
+
+7: Usenet
+Tom Truscott ja Jim Ellisel tuli idee 1979, valmis 1980. Internetifoorumite eelkäija. Kasutajad loevad ja postitavad sõnumeid kindlate kategooriate alla.
+
+8: PHP
+PHP arendus algas 1994 aastal. Rasmus Lerdorf tegi hulga Perl scripte, et oma isiklikku kodulehte hallata. “Personal Home Page Tools”. 1997 aastal Zeev Suraski ja Andi Gutmans kirjutas parseri ümber ja tekkis PHP 3.
+
+9: Päevalehed Eestis
+1995 esimene päevaleht Eestis internetis. Eesti päevaleht “www.zzz.ee/epl/. Esimene number: 5. okt 1995. Osalised: Tanel Tammet: pushimine ja tegelik igapäevane haldamine. Marek Strandberg: üks EPL omanikke, aktiivselt poolt. Ott Köstner: www.zzz.ee üks omanik ja põhihaldaja. Kalle Muuli: peatoimetaja, oli rõõmsalt nõus. Postimees võrgus: 1. detsember 1995.
+
+10: Palm pilot
+1996: U.S. Robotics toob välja Palm Piloti.
+
+11: Google
+Google sai alguse 1997 aastal Larry Page ja Sergey Brin projektina, töötades Stanford Digital Library Project kallal. (SDLP). 1998 Sun kaasasutaja Andy Bechtolsheim kirjutab 100 000 dollarilise checki Google Inc.-ile (mida veel ei eksisteeri). 1999: kaheksa töötajat. Sequoia Capital ja Kleiner Perkins teevad midagi (toetavad 25 miljoni dollariga?)
+
+12: Deep blue
+1997 Deep Blue võidab valitsevat male maailmameistrit Garri Kasparovit.
+
+13: Wikipedia
+2001 aasta 15. jaanuaril Jimmy Wales ja Larry Sanger asutavad. Seda omab ja toetab “Wikimedia Foundation” non-profit organisatsioon, mida rahastatakse peamisel läbi annetuste. Ainult tasuta sisu ja reklaame pole.
+
+14: x-tee
+Eesti riigi põhilisi andmebaase ühendav andmevahetuskiht. Võimaldab infosüsteemidel kasutada olemasolevat andmevahetuskeskkonda ja ühtset kasutajaliideste kogumit ning autentimissüsteemi. Soome riigiga koostöös loodi Põhjamaade Koosvõimelahenduste Instituut, et ühiselt hallata ja kasutada x-teed.

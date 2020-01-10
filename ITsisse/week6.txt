@@ -1,0 +1,110 @@
+1: Kompileerimine
+Arvutile on vaja masinkoodi. Kompilaator teeb programmeerimiskeele failist assemblerikeelsed ajutised failid. Kompilaator teeb assemblerikeelsest failist masinkood + sümbolinfo faili. Linkur otsib üles ja paneb kokku eri osad. Kokkuvõttes kompilaator teeb programmeerimiskeelsest failist masinkoodi failid ja siis täidetakse seda masinkoodi.
+
+2: Interpreteerimine
+Interpretaator loeb sisse programmeerimiskeelse faili, teisendab selle pseudo-assembleriks / vahekoodiks ja asub seda koodi rida realt täitma.
+
+3: Parsimine
+Võtab sisendiks teksti ning ehitab selle põhjal mingi andmestruktuuri, tavaliselt mingi “parse tree”, et programmeerimiskeel muuta hulgaks juhisteks.
+
+4: JIT
+Interpretaator interpreteerib vahekoodi, aga kompileerib töö ajal osa sellest masinkoodiks.
+
+5: Vahekood
+Midagi kompileerimise ja interpreteerimise vahepealset. Kood muudetakse mingiks teiseks koodiks, mis ilmselt on “arvutilähedasem” ja kiirem, aga ei jookse ikkagi puhtalt riistvara peal vaid on vaja mingit vahepealset programmi, mis lähtekoodi jookseks. Java toimib nii, selle jaoks peab olema Java Virtual Machine.
+
+6: Programmeerimiskeeled vs kirjelduskeeled
+Proge: Fortran, Java, C, C#, Python, Javascript. Kirjeldus: HTML, CSS, SQL, XML, JSON, CSV.
+
+7: JSON
+JavaScript Object Notation. Andmete hoiustamiseks. Lihtne inimestele lugeda, aga lihtne ka masinatele genereerida ning parsida.
+
+8: HTML
+Hypertext Markup Language. Standartne keel veebibrauseri näidatava sisu kirjeldamiseks. Tihti koostöös CSS ja JS-iga. 1990 aastal Tim Berners-Lee.
+
+9: SQL
+Keel, mis on mõeldud andmebaaside haldamiseks. Selle kaudu saab andmebaasidele päringuid teha, et andmeid sisestada või lugeda või muuta või kustutada.
+
+10: Keelte äratundmine
+Yes.
+
+11: Assembler
+section    .text
+   global _start     ;must be declared for linker (ld)
+_start:                ;tells linker entry point
+   mov    edx,len     ;message length
+   mov    ecx,msg     ;message to write
+   mov    ebx,1       ;file descriptor (stdout)
+   mov    eax,4       ;system call number (sys_write)
+   int    0x80        ;call kernel
+   mov    eax,1       ;system call number (sys_exit)
+   int    0x80        ;call kernel
+section    .data
+msg db 'Hello, world!', 0xa  ;string to be printed
+len equ $ - msg     ;length of the string
+
+12: Fortran
+C    FORTRAN IV WAS ONE OF THE FIRST PROGRAMMING
+ C    LANGUAGES TO SUPPORT SOURCE COMMENTS
+      WRITE (6,7)
+     7 FORMAT(13H HELLO, WORLD)
+      STOP
+      END
+
+13: Cobol
+           *> setup the identification division
+            IDENTIFICATION DIVISION.
+            *> setup the program id
+            PROGRAM-ID. HELLO.
+            *> setup the procedure division (like 'main' function)
+            PROCEDURE DIVISION.
+              *> print a string
+              DISPLAY 'WILLKOMMEN'.
+            *> end our program
+            STOP RUN.
+
+14: Lisp
+(write (+ 7 9 11))
+(/ (* a (+ b c) ) d)
+(write-line "Hello World")
+(write-line "I am at 'Tutorials Point'! Learning LISP")
+
+15: C
+#include <stdio.h>
+int main() {
+  // printf() displays the string inside quotation
+  printf("Hello, World!");
+  return 0;
+}
+
+16: Modula
+MODULE Areas;
+(* Coronado Enterprises - 1987 *)
+FROM Terminal2 IMPORT WriteString, WriteChar, WriteLn, ReadChar,
+                      WriteReal, ReadReal;
+VAR InChar, CapInChar : CHAR;
+(* ************************************************ Area Of Square *)
+PROCEDURE AreaOfSquare;
+VAR Length, Area : REAL;
+BEGIN
+   WriteString("Square    Enter length of a side : ");
+   ReadReal(Length);
+   Area := Length * Length;
+   WriteLn;
+   WriteString("The area is ");
+   WriteReal(Area,15);
+   WriteLn;
+END AreaOfSquare;
+
+17: Pascal
+Program Lesson1_Program1;
+Begin
+    Write('Hello World. Prepare to learn PASCAL!!');
+    Readln;
+End.
+
+18: Python
+I think i can manage.
+
+19: Data warehouse
+Suur hulk andmeid mingi organisatsiooni kohta, mis see organisatsioon on eri kohtadest kogunud. Nüüd kui andmed ühes kohas saab neid kõiki analüüsida.

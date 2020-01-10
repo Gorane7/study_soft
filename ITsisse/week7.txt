@@ -1,0 +1,59 @@
+1: Opsüsteemi roll
+Pakub programmeerijale valmistehtud standartükke. Võimaldab kasutajal arvutis samamoodi tegutseda, olenemata sellest, mis programmi ta kasutab. Saaks ka ilma, aga siis oleks programmi tegemine palju raskem ja UI oleks väga erinev programmist sõltuvalt.
+
+2: Distro
+Distrod pakuvad kompileeritud kernelit, teeke ja muid tööriistu, mida saab image pealt installida. Hulka valmistehtud tarkvara, mis installiga kaasa tulevad. Hulk tööriistu kergesti uue tarkvara installimiseks. Distrod ehitavad üksteise peale, osad on “core distrod”, mille peale on palju teisi distrosid ehitatud.
+
+3: Linux
+Linux on kernel. Linuxil on vaja veel palju teeke ja asju lisaks kernelile.
+
+4: Mac OS X
+Apple tehtud OS, alates aastast 2001. Teine enimlevinud OS Windowsi järel. Unix põhine, sarnaselt Linuxile.
+
+5: Android
+Mobiiltelefonidele mõeldud OS. Samuti modifikatsioon Linuxist. Open Handset Alliance arendab, peamine toetaja Google. 2005 aastal ostis Google Android Inc. ära, 2007 teatati Androidist ning 2008 esimene seade, mille peal Android jooksis.
+
+6: Protsessid
+Programmi teostamine protsessori peal.
+
+7: Multitasking
+Mitu protsessi jagavad ühe protsessorit või muid ressursse. Tihti tehakse nii, et eri protsesse täidetakse kordamööda, vahetades hästi tihti. See tekitab illusiooni justkui neid täidetaks samaaegselt.
+
+8: Paralleeltöö
+Mitme eri protsessori või protsessori tuuma peal ühe ja sama programmi jooksutamine. Kiirendab tööd kuna programmi üksteisest sõltumatuid osi saab samaaegselt teha.
+
+9: wait/run
+Wait: protsess “ootab”, et ressursijaotur selle protsessi protsessorisse laeks. Kui protsess on protsessorisse laetud, siin on “run”.
+
+10: Interrupt
+Sisendsignaal protsessorile, mis nõuab kohest vastust. Protsessor salvestab enda seisu, teeb interrupt evendi ära ning jätkab peale seda oma tööd.
+
+11: Virtuaalmälu
+Mäluhaldustehnoloogia, kus põhimällu kopeeritakse ainuld need osad, mida programmil parajasti vaja on, muid osasid hoitakse kõvakettal. Lubab jooksutada programme, mis nõuavad rohke mälu, kui põhimälus füüsiliselt on.
+
+12: Tekstitöötlus
+Jah
+
+13: Lihttekst
+Kogu info ainult tekstina. Võib sisaldada kujundusmärgendeid, lõppvarianti kuvab mõni teine rakendus. HTML, Markdown, LaTeX, PostScript. Hiirt pole vaja, rõhk sisul, mitte vormil, tulemuseni jõuab kiiresti, ebamugav lugeda, lõpptulemust pole kohe näha, nõuab süntaksi tundmist, rohkem kirjutamist.
+
+14: WYSIWYG
+What you see is what you get. Lõplik vormindus kuvatakse otse redigeerimistarkvaras. Mugavam lugeda, visuaalsed tööriistad, tulemus on kohe näha, abistav kasutajaliides, vorm domineerib sisu üle, ahvatlus kujundada, mitte sisu luua, tulemuseni jõuab aeglasemalt.
+
+15: Kooditabel
+Kooditabel määrab, kuidas tuleb faili salvestatud sümbolit ekraanil näidata
+
+16: ASCII
+American Standard Code for Information Interchange. 7 bitine tähemärkide tabel. Viimast bitti kasutati veatöötluseks.
+
+17: Unicode
+Proovis ühtsustada kõiki erinevaid tähtede kodeerimis viise, mis olid eri maailma osades tekkinud. Üle 128 000 sümboli. Eri kodeerimisviisid: UTF-8, UTF-16, UTF-32. UTF-8 on pmst ASCII, 0-127 ongi ASCII. UTF-16 saab enamusi levinumaid sümboleid. UTF-32 saab kõiki.
+
+18: UTF-8
+UTF-8 on pmst ASCII, 0-127 ongi ASCII. UTF-16 saab enamusi levinumaid sümboleid. UTF-32 saab kõiki.
+
+19: Latex
+Dokumentide ettevalmistussüsteem, mis kasutab märgenduskeelt ja TeX-programmi. LaTeX dokumenti ette valmistades kirjeldab autor dokumendi loogilise struktuuri tavaliste märksõnade abil, nagu peatükk, osa, tabel, joonis, valem jms. Teksti ja dokumendi muude elementide paigutuse eest hoolitseb LaTeX süsteem.
+
+20: Markdown
+Markdown on lihtteksti vormindamise süntaks, mida saab HTMLiks teisendada. Markdown on populaarne README failides, veebipõhistes foorumites ja tekstiredaktorites kiireks vormindatud teksti kirjutamiseks.

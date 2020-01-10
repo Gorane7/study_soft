@@ -1,0 +1,60 @@
+1: HTTP
+HTTP on omaette protokoll TCP peal, mida kasutatakse veebilehtede, piltide, tekstifailide, zip failide, jsoni jne saatmiseks veebibrauseri ja serveri vahel. HTTP pärin on tekstiline käsk serverile, mis küsib faili. Päringus näidatakse ära konktreetne küsimus / käsk, faili asukoht ja nimi, protokoll, mida küsija kasutab, ja soovi korral lisainfot nagu küsija programmi tüüp. HTTP päringule saab teksti kujul ka andmeid kaasa anda. HTTP päringus: päis, tühi rida, tegelik sisu.
+
+2: HTTPS
+Krüpteeritud variant HTTP päringust. Päring ja vastus krüpteeritakse võtmega, mis automaatselt genereeritakse iga ühenduse jaoks.
+
+3: HTML
+Kujunduskeel, veebilehtede põhikeel.
+
+4: CSS
+Täpset teksti paigutust ja kujundust võimaldav keel HTML täienduseks.
+
+5: JavaScript
+Brauseri programmeerimiskeel: javascripti programmid töötavad otse brauseris: muudavad htmli, css-i, võtavad ühendust serveriga jne.
+
+6: Ajax
+Javascript + asynchronous queries. Seni kuni andmeid tõmmatakse serverist, javascript ei hangu, vaid tegutseb normaalselt.
+
+7: JSON
+Lihtne andmeesituskeel. Javascript andmesüntaks, sarnane pythoni omale. Praegu kõige populaarsem. Andmete esitamine tekstina.
+
+8: XML
+eXtensible Markup Language. Struktureeritud teksti esitamise formaat. XML standard ütleb, kuidas teksti struktuuri märgistada. Saab kasutada andmete esitamiseks tekstina. Lihtne, aga veidi kohmakas kasutada. Kasutati enne JSONi, aga kui asjad keeruliseks läksid, siis muutus JSON populaarsemaks.
+
+9: Kuidas üldjoontes töötab klassikaline veebirakendus
+Server saadab brauserile html teksti. Kasutaja täidab vormid / vajutab nuppe. Brauser saadab serverile sisestatud parameetrid. Server arvutab parameetrite järgi uue html teksti.
+
+10: Kuidas üldjoontes töötab single-page app
+Dünaamiliselt kirjutab veebilehte üle, mitte ei tõmba uusi lehti serverist. Pole katkestusi ning käitub rohkem desktop applicationi moodi. Kogu HTML, CSS ja JS on kas kohe antud või dünaamiliselt laetud.
+
+11: Arvutivõrgud
+Asjad.
+
+12: MAC aadress
+Arvuti unikaalne nimi ehk aadress Ethernetis. 48 bitine arv.
+
+13: IP aadress
+Arvuti unikaalne nimi ehk aadress Internetis. 32 bitine arv.
+
+14: Port
+Masinas elab korraga palju programme ja igaüks tahab saada / saata oma pakette. Programmile antakse kasutamiseks nummerdatud TCP või UDP port.
+
+15: Ethernet
+Hulk arvuteid traatipidi võrgus koos. Tavaliselt just kohalikus võrgus.
+
+16: IP
+Internet protocol. Kokkulepe, kuidas sõnumeid saata ja nendest aru saada. IP protokoll lubab saata ainult suhteliselt väikeseid sõnumeid. 64 kB. Iga sõnumi ette pannakse lisainfo (päis ehk header), mis ütleb kuhu saata ja kust tuleb (IP aadress) ja veel hulk lisainfot.
+TCP/IP pere tööhobune. RFC 791. Garanteerib marsruutimise ehk minemise õiges suunas. Ei taga kohalejõudmist. Ei loo kanalit.
+
+17: TCP
+Transfer control protocol. Toimub kontroll. Ühendusorienteeritud. Usaldatav. Voo tüüpi: jagab voo segmentideks, saates käivitab taimeri ja ootab kinnitust, kinnitab saadetud segmendid, kontrollsumma päisest ja andmetest, korrastab segmentide järjestuse, unustab duplikaadid, kontrollib voo mahtu.
+
+18: UDP
+User datagram protocol. Iga rakenduse väljund tekitab uue datagrammi. Ei taga usaldatavust. Datagrammi ehitus: lähte- ja sihtport (kumbki kaks baiti), datagrammi pikkus (kaks baiti), kontrollsumma (kaks baiti), andmeosa (varieeruva pikkusega hulk baite). UDP paketi maksimaalpikkus on 64 kB. Kontrollsumma vea puhul unustatakse datagramm. Rakendused: DNS, NFS, TFTP.
+
+19: Kapseldamine (mis on mille sees)
+<frame header><frame data><frame footer>
+Frame data: <IP header><IP data>
+IP data: <UDP header><UDP data>
+UDP data: Data for application

@@ -1,0 +1,31 @@
+1: Lahenduvus teoreetilised mõttes
+Kas on võimalik luua algoritm, mis selle probleemi ära lahendaks.
+Teoreetilise probleemi korral on alati kogu info olemas ja juhuslikkust pole.
+
+2: Lahenduvus tavamõttes
+Kas me suudame luua algoritmi, mis probleemi ära lahendaks.
+Probleemid: pole piisavalt infot, nt kas firma aktsia hind tõuseb või mitte. Juhuslikkus segab, tavamõistes “juhuslikkus” ongi info puudumine, kuid ka väga täpse info puhul tuleb kvantmehaanika ja erinevad määramatusprintsiibid mängu.
+
+3: Mis on lahenduvad ülesanded
+Ülesanded, mille jaoks on võimalik kirjutada algoritm, mis selle ära lahendab.
+
+4: Positiivsete täisarvude, täisarvude ja murdarvude võimsuse võrdlemine ja tõestamine
+Pos täisarvude hulk sama võimas kui täisarvude hulk, kuna saab üks-ühesesse vastavusse seada. Murdarvude hulk sama võimas kui positiivsete täisarvude hulk, tabelis saab diagonaalselt liikudes kõik seada üks-ühesesse vastavusse.
+
+5: Reaalarvude suurem võimsus kui täisarvude võimsus (cantori teoreem)
+Katki
+
+6: Peatumisprobleem
+Kas on võimalik teha programm, mis saab sisendiks programmi ning sisendi sellele programmile ja otsustab, kas antud programm peatub kunagi või mitte.
+
+7: Peatumisprobleemi lahendamatuse tõestus
+Eelda et on võimalik teha selline programm. Nüüd kasuta seda programmi, et teha programm, mis läheb loopi, kui sisendiks antud programm peatub, ning peatub kui sisendiks antud programm läheb loopi. Kutsu nüüd väline programm välja andes iseennast argumendiks. Kui ta peatub, siis ta läheb loopi ja kui ta läheb loopi, siis ta peatub. Vasturääkivus, järelikult eeldus vale.
+
+8: Algoritmide keerukus
+Põhioperatsioonide arvu sõltuvusfunktsioon sisendite arvust.
+
+9: O-notatsioon
+Esitatakse ainult keerukusfunktsiooni määrav komponent. Liidetavatest suurima keerukusega. Kordajaid ignoreeritakse. Näited: logn, n, n**k, a**n
+
+10: Sorteerimise parim keerukus halvimal juhul
+Tavaliselt on parim quicksort, kuid selle worst-case on n**2. Merge sorti ja heap sorti worst case-d on nlogn.

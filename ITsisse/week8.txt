@@ -1,0 +1,49 @@
+1: Teek
+Library. Konkreetseid, piiratud funktsioone realiseerivad väikesed komponendid ja nende komplektid.
+
+2: Raamistik
+Framework. Edasiarendamiseks ja ümbertegemiseks mõeldud terviklikud näiterakendused. Raamistik ei lase arendajal vabalt valida, kuidas süsteem töötama peaks, pigem suunab teda täiendama etteantud näitesüsteemi.
+
+3: Teegi näiteid
+Openpyxl, numpy, math, random, tkinter, pygame, urllib
+
+4: Raamistiku näiteid
+Java Spring, Ruby on Rails, PHP Zend framework, Python Django, Javascript Angular, Microsoft .NET
+
+5: Põhilised litsentsitüübid
+Kommertslitsentsid ja vabavaralitsentsid.
+
+6: Vabavaralised litsentsitüübid
+GPL, LGPL, MIT, BSD
+
+7: GPL vs MIT vs BSD
+GPL: esimene copyleft litsents, mis oli mõeldud üldiseks kasutamiseks. Copyleft säilitab tarkvara modifikatsioonide vabadust ka.
+BSD: lubab tarkvara kasutada ka mitte-vabana ning kasutada koos mitte-vaba tarkvarana.
+MIT: sarnane BSD-le
+
+10: Mitte-vabavaralised litsentsitüübid
+Kommertslitsentsid on väga mitmekesised.
+
+11: GPL põhipoindid
+GPL: esimene copyleft litsents, mis oli mõeldud üldiseks kasutamiseks. Copyleft säilitab tarkvara modifikatsioonide vabadust ka.
+
+12: https://martinfowler.com/architecture/
+Jah
+
+13: www.joelonsoftware.com/articles/LeakyAbstractions.html
+Jah
+
+14: http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf
+Jah
+
+15: https://en.wikipedia.org/wiki/No_Silver_Bullet
+Jah
+
+16: http://www.developerdotstar.com/mag/articles/reeves_design.html
+Jah
+
+17: http://www.developerdotstar.com/mag/articles/reeves_13yearslater.html
+Jah
+
+18: http://www.gnu.org/philosophy/free-sw.htm
+Jah

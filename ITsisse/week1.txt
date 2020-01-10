@@ -1,0 +1,66 @@
+1: Bitt, bait, kilobait, megabait jne
+0-1, 8 baiti ehk 0-256, 1024 baiti, 1024 ruudus baiti jne
+
+2: Kuidas tähti kodeeritakse
+ASCII, EBCDIC, UNICODE
+ASCII: 7-bit, esimesed 32 on special characters, peale seda matemaatilised jm sümbolid ja numbrid, siis suurtähed, siis väiketähed
+EBCDIC: 8-bit, non-ASCII, kõigepealt väiketähed, siis suurtähed, siis sümbolid ja numbrid, ASCII vastand, sortimine vastupidi
+UNICODE: Proovis ühtsustada kõiki erinevaid tähtede kodeerimis viise, mis olid eri maailma osades tekkinud. Üle 128 000 sümboli. Eri kodeerimisviisid: UTF-8, UTF-16, UTF-32. UTF-8 on pmst ASCII, 0-127 ongi ASCII. UTF-16 saab enamusi levinumaid sümboleid. UTF-32 saab kõiki.
+
+3: Mis on algoritm ja mis on programm?
+Algoritm: täpne, samm-sammuline juhend, aga mitte tingimata formaalne, nt toiduretsept.
+Programm: Formaalselt üheselt mõistetavas keeles kirja pandud algoritm, arvutid suudavad ainult programme täita.
+
+4: Kreeka loogikud
+Parmenides (5. sajand e.m.a.) (kasutas pikki loogilisi põhjendusi), Zenon Eleast (5. sajand e.m.a.) (apooriad / paradoksid)
+Sofistid: Sokrates (470-399 e.m.a.), Platon (428/427 - 348/347 e.m.a.)
+Aristoteles (väidete struktuur, kui iseseisev uurimisobjekt)
+
+5: Induktsioon
+Arutlemise viis, kus asjade omadustest järeldatakse, et muudel asjadel on ka see omadus või et neil asjadel on ka tulevikus see omadus. (tõenäosuslik järeldamine)
+
+6: Deduktsioon
+Arutlemise viis, mis tagab, et tõestest eeldustest saadakse tõesed järeldused. (kindel järeldamine)
+
+7: Süllogismid
+Väitlus, kus etteantud väidetest (eeldustest) paratamatult järeldub uus väide. (deduktsiooni rakendamine)
+
+8: Lausearvutus / tõeväärtustabeli koostamine
+Loogiliste sidesõnade abil lihtsatest lausetest keerulisemate kokku panemine. Ja nende kirjeldamine sümbolitega / matemaatiliselt. Loogikatehted on funktsioonid tõeväärtuste peal. &, V, -, ==, =>
+
+9: Pascal
+Kristlik filosoof Blaise Pascal (1623-1662). 1640 tegi aritmeetilise masina, mis liitis ja lahutas. (tegi umbes 50 tükki)
+
+10: Leibniz
+Saksa filosoof Gottfried Wilhelm Leibniz (1646-1716). 1671 tegi Leibnizi arvuti, mis liitis, lahutas, korrutas ja jagas. Lõi Boole’ga sarnase loogikasüsteemi, mis vajus unustusse. Püüdis luua universaalset sümbolkeelt ja seda keelt kasutavat “arutlemise aritmeetikat”.
+
+11: Perfokaardid
+Nelinurkne kartongist kaart, mis kannab digitaalset infot sõltuvalt avade olemasolust kindlates kohtades. 19. sajandil kasutati kangastelgede juhtimiseks ja 20. sajandil arvutusmasinates input, output ja storage jaoks. Esimesed digitaalse arvutid kasutasid programmide ja andmete sisestamiseks. 1890 tegi Herman Hollerith perfokaartidega masina USA rahvaloenduse andmete töötlemiseks. Hollerithi firmast tekkis IBM.
+
+12: Kangasteljed
+1801 leiutas Joseph Jacquard perfokaardid, mida sai kangastelgede peal kasutada, et automatiseerida kangastelgedel mustri tegemist. Aukudest perfokaardis sõltub, millised niidid tõstetakse üles ja millised jäävad alla.
+
+13: Babbage
+Charles Babbage (1791 - 1871). 1822: “difference engine” jäi pooleli, kuna rahastusega oli probleeme, poeg lõpetas, pidi arvutama polünoomide väärtusi. Esimesed mehaanilised arvutid.
+
+14: Hollerith
+1890 tegi Herman Hollerith perfokaartidega masina USA rahvaloenduse andmete töötlemiseks. Hollerithi firmast tekkis IBM.
+
+15: colossus ja saksa krüptomasinad
+Colossus: 1943-1945 tehtud briti arvutid, mis pidid aitama Lorenzi šifrite krüptoanalüüsis. Kasutas vaakumtorusid, et teha loogikaalgebrat ja loendamist. Esimene digitaalne (binaarne), elektrooniline, programmeeritav arvuti. Programmeeritavus tulenes küll lülitite ja juhete ümbertõstmises.
+Saksa armee kasutas II Maailmasõja ajal Lorenzi masinaid, mis krüpteerisid teksti. Sama võtit sai kasutada krüpteerimiseks ja dekrüpteerimiseks.
+
+16: Turing
+Alan Turing (1912 - 1954). II Maailmasõja ajal aitas suuresti kaasa Saksa šifrite murdmisele. Turingi masin: matemaatiline mudel, mis defineerib abstraktse arvutusmasina.
+
+17: Shannon
+Claude Shannon (1916 - 2001). 1938 MIT magistritöö sidus Boole algebra, elektrilülitid- ja skeemid, bitid ja info kodeerimise, info otsimise algoritmid.
+
+18: Zuse
+Konrad Zuse (1910 - 1995). Programmeeritavate arvutite pioneer saksamaalt. 1936-1938: Z1: puhtmehaaniline, 1938: Z2: rehkendus releedega, 1941: Z3: perfolindiga, universaalselt programmeeritav, 1944 - 1950: Z4: kommertsiaalne digitaalarvuti Zürichi tehnikaülikoolile, releedega rehkendus, mehaaniline mälu, 1950 - 1967: Z5 - Z64, 1967 aastaks oli Zuse KG ehitanud 251 arvutit, finantsprobleemide tõttu müüdi firma Siemensile.
+
+19: Esimesed programmeeritavad arvutid
+Zuse: 1941 mai: pmst perfokaartidega programmeeritav
+Colossus: 1943/1944: osaliselt programmeeritav juhtmete ümber tõstmisega
+Harvard Mark I: 1944: pmst perfokaartidega programmeeritav
+ENIAC: 1944: osaliselt programmeeritav juhtmete ümber tõstmisega

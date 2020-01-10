@@ -1,0 +1,35 @@
+1: Rekursiooni äratundmine
+It calls itself.
+
+2: Baasjuht
+Peaks olema 1 või rohkem. Nende puhul tagastab funktsioon midagi kindlat, ei kutsu end uuesti välja.
+
+3: Rekursiivne juht
+Peaks ka 1 või rohkem olema. Nende puhul kutsub funktsioon end uuesti välja, kuid argumendid millega uuesti välja kutsutakse, peaks olema millegi poolest “lihtsamad”, kui need, millega praegu välja kutsuti. “Lihtsus” tavaliselt peaks tähendama, et läheb baasjuhule “lähemale”.
+
+4: Rekursiooni ekvivalentsus tsükliga
+Iga iteratiivse funktsiooni saab teha rekursiivseks ja iga rekursiivse iteratiivseks. Kuid osasid asju on kergem kirjutada iteratsiooniga ning osasid rekursiooniga.
+
+5: Arusaamine funktsionaalse keele näitejuppidest loengus
+Ehk saad hakkama.
+
+6: Mis on lambda-arvutus
+Alonzo Churchi poolt 1930. aastatel leiutatud lihtne ja universaalne meetod funktsioonide kirjapanekuks. Lambda-arvutus on universaalne programmeerimiskeel. Lambda-arvutuse keel ja teooria on funktsionaalsete programmeerimiskeelte aluseks.
+( f. f(f 2)) ( x. x*x+1))
+( x. x*x+1) (( x. x*x+1) 2)
+( x. x*x+1) (2*2+1)
+( x. x*x+1) 5
+5*5+1
+
+7: Prologi näite äratundmine
+isa(jaan,peeter).
+isa(jaan,martin).
+isa(martin,veiko).
+isa(riivo,leo).
+ema(leena,leo).
+vanaisa(X,Z) :- isa(X,Y), isa(Y,Z).
+vanaisa(X,Z) :- isa(X,Y), ema(Y,Z).
+?- isa(riivo,martin).
+No
+?- isa(jaan,X).
+X=peeter

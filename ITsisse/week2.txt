@@ -1,0 +1,56 @@
+1: Transistor
+1947 Bell Telephone Laboratories: William Shockley, Walter Brattain, John Bardeen loovad esimese transistori. Kasutab pooljuhte, et elektrisignaale kontrollida. Saab kasutada signaali võimendamiseks (nõrk signaal määrab kui suur osa tugevast signaalist läbi läheb) või lülitina (signaal määrab, kas mingi teine signaal läheb läbi või mitte). “base” ja “emitter” vahel olev vool määrab ära kui palju voolu on “collector” ja “emitter” vahel.
+
+2: Samuel
+Arthur Samuel lõi 1952 aastal esimese (USAs esimese) AI programmi (mis ka päriselt mingi arvuti peal jooksis), mis mängis kabet. IBM 701 oli arvuti, mille peal jooksis.
+
+3: Shockley semiconductor
+William Shockley loodud firma (1955) Palo Altos, Californias. 8 inseneri lahkusid Shockley Semiconductorsist, et luua Fairchild Semiconductors.
+
+4: Fortran
+(formula translator) 1957 aastal loodud keel, mis lubas arvutil korduvaid ülesandeid täita loopide abil.
+
+5: Fairchild
+1959 esitab Fairchild Semiconductors patendi mingite transistoride tootmiseks. Kaks aastat hiljem Robert Noyce (Fairchildist) loob integraalskeemi. 1961 esimene kommertsiaalne integraalskeem.
+
+6: Sage
+1958 Semi-Automatic Ground Environment - ühendas sadu radari jaamu USAs ja Kanadas, esimene suurem võrk, mis arvuteid ühendas / kus arvutid omavahel suhtlesid.
+
+7: Texas instruments
+1958 Texas Instrumentsis töötav Jack St. Clair Kilby tuleb intergraalskeemi idee peale. 1959 kuulutab Texas Instruments, et on avastanud integraalskeemi.
+
+8: Integraalskeem
+Väikesel räniplaadil integreeritakse / lõimitakse lülituse / skeemi elemendid / transistorid üheks tervikuks, mis töötleb digitaalsignaale.
+
+9: Cobol
+1960 Common Business Oriented Language. Projekti juhtis Grace Hopper. Mitme arvutifirma ja pentagoni koostöö.
+
+10: Lisp
+1960 esimene keel, mis oli tehtud AI programmide arendamiseks. John McCarthy autor.
+
+11: pdp-1
+1959 / 1960 Programming Data Processor 1: 50 tükki ehitati, tükihind 120 000 dollarit. MIT kirjutas esimese arvutimängu (Spacewar!). Arvutil oli katoodkiiretorudest ekraan / display. Polnud kommertsiaalselt edukas.
+
+12: system 360
+1964 kuulutas IBM välja System/360, mis oli 6 arvutit ja 40 lisaseadet, mis kõik saavad koos töötada / on ühenduvad.
+
+13: Moore’s law
+1964 Gordon Moore pakub välja, et integraalskeemide keerukus kahekordistub iga aasta / iga poolteist aastat.
+
+14: Intel
+1968 Robert Noyce ja Gordon Moore loovad Intel Corporationi. Insenerid Fairchild Semiconductorsist. 1969 1 KB RAM. 1971 loob Intel esimese mikroprotsessori (Intel 4004). 2300 transistori, 10 mikromeetrit oli väikseim osa, taktsagedus 108 kHz
+
+15: AMD
+1969 Advanced Micro Devices Incorporated. Insenerid Fairchild Semiconductorsist.
+
+16: Engelbart
+1968 Douglas C. Engelbart demonstreerib klaviatuuri, hiire ja ekraani süsteemi. Demonstreerib ka tekstiredaktorit, hüperteksti ja kolleegidega koostööd arvuti läbi (suurtel vahemaadel).
+
+17: Unix
+1969 AT&T Bell Laboratories programmeerijad Kenneth Thompson ja Dennis Ritchie arendavad UNIX operatsioonisüsteemi.
+
+18: Esimene mikroprotsessor
+1971 loob Intel esimese mikroprotsessori (Intel 4004). 2300 transistori, 10 mikromeetrit oli väikseim osa, taktsagedus 108 kHz.
+
+19: xtee
+Eesti riigi põhilisi andmebaase ühendav andmevahetuskiht. Võimaldab infosüsteemidel kasutada olemasolevat andmevahetuskeskkonda ja ühtset kasutajaliideste kogumit ning autentimissüsteemi. Soome riigiga koostöös loodi Põhjamaade Koosvõimelahenduste Instituut, et ühiselt hallata ja kasutada x-teed.

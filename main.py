@@ -176,6 +176,7 @@ def get_lessons(course_name):
     folder_path = join(base_path, course_name)
     lessons = listdir(folder_path)
     file_exists = "meta.txt" in lessons
+    lessons = [l for l in lessons if l[0] != "."]
     lessons = [l for l in lessons if l.split(".")[0][-4:] != "meta"]
     lessons = get_lesson_chances(folder_path, lessons, file_exists)
     return lessons
@@ -227,6 +228,7 @@ def get_courses_list():
     path = getcwd()
     everything = listdir(path)
     everything.remove("main.py")
+    everything = [course for course in everything if course[0] != "."]
     return everything
 
 def print_courses_list(courses):

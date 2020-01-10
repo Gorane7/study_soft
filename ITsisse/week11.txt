@@ -1,4 +1,4 @@
-1: Lahenduvus teoreetilised mõttes
+1: Lahenduvus teoreetilises mõttes
 Kas on võimalik luua algoritm, mis selle probleemi ära lahendaks.
 Teoreetilise probleemi korral on alati kogu info olemas ja juhuslikkust pole.
 

@@ -43,5 +43,5 @@ Y
 15: http://blog.rongarret.info/2006/10/top-ten-geek-business-myths.html
 Y
 
-16:https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/
+16: https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/
 Y

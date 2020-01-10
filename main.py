@@ -69,6 +69,8 @@ def study():
                     lessons[lesson] *= rate_of_change_lesson
                     questions[i]['chance'] *= rate_of_change_question
                 else:
+                    lessons[lesson] /= rate_of_change_lesson
+                    questions[i]['chance'] /= rate_of_change_question
                     print("Unable to interpret feedback, not modifying frequencies.")
                 break
         save_chances(questions, lesson)
@@ -131,6 +133,10 @@ def make_question_dict_list(questions):
     for question in questions:
         if question == "":
             return_list.append({})
+        elif len(question) < 3:
+            if "answer" not in return_list[-1].keys():
+                return_list[-1]["answer"] = []
+            return_list[-1]["answer"].append(question)
         elif question[2] == ":" and question[:2].isdigit():
             return_list[-1]["id"] = int(question[:2])
             return_list[-1]["question"] = question.split(": ")[1]
@@ -141,7 +147,8 @@ def make_question_dict_list(questions):
             if "answer" not in return_list[-1].keys():
                 return_list[-1]["answer"] = []
             return_list[-1]["answer"].append(question)
-    return_list.remove({})
+    while {} in return_list:
+        return_list.remove({})
     return return_list
 
 def get_questions(course, lesson):

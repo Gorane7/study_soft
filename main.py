@@ -69,8 +69,6 @@ def study():
                     lessons[lesson] *= rate_of_change_lesson
                     questions[i]['chance'] *= rate_of_change_question
                 else:
-                    lessons[lesson] /= rate_of_change_lesson
-                    questions[i]['chance'] /= rate_of_change_question
                     print("Unable to interpret feedback, not modifying frequencies.")
                 break
         save_chances(questions, lesson)

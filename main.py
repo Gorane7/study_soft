@@ -6,8 +6,7 @@ from copy import deepcopy
 # GLOBALS
 course = None
 lessons = None
-rate_of_change_question = 1.5
-rate_of_change_lesson = 1.02
+rate_of_change_question = 2.0
 
 def main():
     while True:
@@ -63,15 +62,22 @@ def study():
         for i in range(len(questions)):
             if questions[i]['id'] == question['id']:
                 if correct == "y":
-                    lessons[lesson] /= rate_of_change_lesson
                     questions[i]['chance'] /= rate_of_change_question
+                    lessons[lesson] = get_average_chance_of_questions(questions)
                 elif correct == "n":
-                    lessons[lesson] *= rate_of_change_lesson
                     questions[i]['chance'] *= rate_of_change_question
+                    lessons[lesson] = get_average_chance_of_questions(questions)
                 else:
                     print("Unable to interpret feedback, not modifying frequencies.")
                 break
         save_chances(questions, lesson)
+
+def get_average_chance_of_questions(questions):
+    total = 0
+    count = len(questions)
+    for question in questions:
+        total += question["chance"]
+    return total / count
 
 def print_answer(answer_list):
     for answer in answer_list:

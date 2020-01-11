@@ -87,7 +87,7 @@ def get_question(course, lesson):
     questions = get_questions(course, lesson)
     questions = make_question_dict_list(questions)
     questions = add_chances(questions, lesson)
-    return questions, choice(questions)
+    return questions, choose_question(questions)
 
 def add_chances(questions, lesson):
     chances = get_chances_from_file(lesson)
@@ -171,6 +171,14 @@ def choose_lesson(lessons):
         if choice < frequency:
             return lesson
         choice -= frequency
+
+def choose_question(questions):
+    total = sum([q["chance"] for q in questions])
+    choice = uniform(0.0, total)
+    for question in questions:
+        if choice < question["chance"]:
+            return question
+        choice -= question["chance"]
 
 def lessons_list():
     global course

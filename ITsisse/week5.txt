@@ -23,7 +23,7 @@ Osad keeled kasutavad tähe jaoks 1 baiti ( C ), osad 2 baiti (Java). Mõned vee
 String on jada baite (chare) pluss pikkuse määrang. ASCII ja ISO-8859-1 kodeeringu puhul üks täht üks bait, UTF-8 puhul on ascii tähed 1 bait, teised rohkem. Javas on tähed 2 baiti. Pikkuse määramiseks kaks viisi: C paneb lõppu baidi 0. Pythonis, Javas, Javascriptis on stringi pikkuseks eraldi number.
 
 9: Massiivid
-Massiiv on jada ühetüübilise väärtusi. C keel ei salvesta massiivi pikkust, programmeerija peab ise teadma või eraldi salvestama selle. Java, Javascript ja Go sisaldavad ka massiivi pikkuse numbrit.
+Massiiv on jada ühetüübilisi väärtusi. C keel ei salvesta massiivi pikkust, programmeerija peab ise teadma või eraldi salvestama selle. Java, Javascript ja Go sisaldavad ka massiivi pikkuse numbrit.
 
 10: Puud
 Abstraktne andmetüüp. Koosneb node-st, kus igal nodel on mingi väärtus ning alamnoded ja üks ülemnode. On ka root node, millel ei ole ülemnode.

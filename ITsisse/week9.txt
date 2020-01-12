@@ -1,5 +1,5 @@
 1: HTTP
-HTTP on omaette protokoll TCP peal, mida kasutatakse veebilehtede, piltide, tekstifailide, zip failide, jsoni jne saatmiseks veebibrauseri ja serveri vahel. HTTP pärin on tekstiline käsk serverile, mis küsib faili. Päringus näidatakse ära konktreetne küsimus / käsk, faili asukoht ja nimi, protokoll, mida küsija kasutab, ja soovi korral lisainfot nagu küsija programmi tüüp. HTTP päringule saab teksti kujul ka andmeid kaasa anda. HTTP päringus: päis, tühi rida, tegelik sisu.
+HTTP on omaette protokoll TCP peal, mida kasutatakse veebilehtede, piltide, tekstifailide, zip failide, jsoni jne saatmiseks veebibrauseri ja serveri vahel. HTTP päring on tekstiline käsk serverile, mis küsib faili. Päringus näidatakse ära konktreetne küsimus / käsk, faili asukoht ja nimi, protokoll, mida küsija kasutab, ja soovi korral lisainfot nagu küsija programmi tüüp. HTTP päringule saab teksti kujul ka andmeid kaasa anda. HTTP päringus: päis, tühi rida, tegelik sisu.
 
 2: HTTPS
 Krüpteeritud variant HTTP päringust. Päring ja vastus krüpteeritakse võtmega, mis automaatselt genereeritakse iga ühenduse jaoks.
@@ -29,16 +29,16 @@ Server saadab brauserile html teksti. Kasutaja täidab vormid / vajutab nuppe. B
 Dünaamiliselt kirjutab veebilehte üle, mitte ei tõmba uusi lehti serverist. Pole katkestusi ning käitub rohkem desktop applicationi moodi. Kogu HTML, CSS ja JS on kas kohe antud või dünaamiliselt laetud.
 
 11: Arvutivõrgud
-Asjad.
+Füüsiline kiht + digitaalne kiht, mille abil arvutid omavahel suhtlevad.
 
 12: MAC aadress
-Arvuti unikaalne nimi ehk aadress Ethernetis. 48 bitine arv.
+Arvuti unikaalne nimi ehk aadress Ethernetis. 48 bitine arv. Vaikimisi tootja poolt antud.
 
 13: IP aadress
-Arvuti unikaalne nimi ehk aadress Internetis. 32 bitine arv.
+Arvuti unikaalne nimi ehk aadress Internetis. 32 bitine arv. Vaikimisi interneti teenusepakkuja poolt antud.
 
 14: Port
-Masinas elab korraga palju programme ja igaüks tahab saada / saata oma pakette. Programmile antakse kasutamiseks nummerdatud TCP või UDP port.
+Masinas elab korraga palju programme ja igaüks tahab saada / saata oma pakette. Programmile antakse kasutamiseks nummerdatud port, ise otsustab, kas suhtleb TCP, UDP või muul moel.
 
 15: Ethernet
 Hulk arvuteid traatipidi võrgus koos. Tavaliselt just kohalikus võrgus.
@@ -51,7 +51,7 @@ TCP/IP pere tööhobune. RFC 791. Garanteerib marsruutimise ehk minemise õiges 
 Transfer control protocol. Toimub kontroll. Ühendusorienteeritud. Usaldatav. Voo tüüpi: jagab voo segmentideks, saates käivitab taimeri ja ootab kinnitust, kinnitab saadetud segmendid, kontrollsumma päisest ja andmetest, korrastab segmentide järjestuse, unustab duplikaadid, kontrollib voo mahtu.
 
 18: UDP
-User datagram protocol. Iga rakenduse väljund tekitab uue datagrammi. Ei taga usaldatavust. Datagrammi ehitus: lähte- ja sihtport (kumbki kaks baiti), datagrammi pikkus (kaks baiti), kontrollsumma (kaks baiti), andmeosa (varieeruva pikkusega hulk baite). UDP paketi maksimaalpikkus on 64 kB. Kontrollsumma vea puhul unustatakse datagramm. Rakendused: DNS, NFS, TFTP.
+User datagram protocol. Iga rakenduse väljund tekitab uue datagrammi. Ei taga usaldatavust - saatja ei jää ootama vastust ega kohaletoimetamise kinnitust. Datagrammi ehitus: lähte- ja sihtport (kumbki kaks baiti), datagrammi pikkus (kaks baiti), kontrollsumma (kaks baiti), andmeosa (varieeruva pikkusega hulk baite). UDP paketi maksimaalpikkus on 64 kB. Kontrollsumma vea puhul unustatakse datagramm. Rakendused: DNS, NFS, TFTP.
 
 19: Kapseldamine (mis on mille sees)
 <frame header><frame data><frame footer>

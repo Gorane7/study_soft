@@ -17,7 +17,7 @@ Ongi arv kahendarvuna, kui on “signed” ehk märgiga, siis esimene bitt näit
 Tavaliselt kasutatakse 8 baiti, vahel ka 4 (veel harvemini 2, 16 ja 32). a * b**e, kus b on tavaliselt 2, harvemini ka 10 (oleneb formaadist ja vist ei ole numbris endas kirjas). Esimene bit näitab kas arv on positiivne või negatiivne. Peale seda on olenevalt formaadi suurusest (16 kuni 256 bitti) 5 kuni 19 bitti e jaoks ja siis 10 kuni 236 bitti a jaoks.
 
 7: Tähtede esitamine
-Osad keeled kasutavad tähe jaoks 1 baiti ( C ), osad 2 baiti (Java). Mõned veel rohkem. Üksikute tähtede asemel kasutavad progejad tihti täisarve.
+Osad keeled kasutavad tähe jaoks 1 baiti ( C ), osad 2 baiti (Java). Mõned veel rohkem. Üksikute tähtede asemel kasutavad progejad mõnikord täisarve.
 
 8: Stringid
 String on jada baite (chare) pluss pikkuse määrang. ASCII ja ISO-8859-1 kodeeringu puhul üks täht üks bait, UTF-8 puhul on ascii tähed 1 bait, teised rohkem. Javas on tähed 2 baiti. Pikkuse määramiseks kaks viisi: C paneb lõppu baidi 0. Pythonis, Javas, Javascriptis on stringi pikkuseks eraldi number.
@@ -26,4 +26,4 @@ String on jada baite (chare) pluss pikkuse määrang. ASCII ja ISO-8859-1 kodeer
 Massiiv on jada ühetüübilisi väärtusi. C keel ei salvesta massiivi pikkust, programmeerija peab ise teadma või eraldi salvestama selle. Java, Javascript ja Go sisaldavad ka massiivi pikkuse numbrit.
 
 10: Puud
-Abstraktne andmetüüp. Koosneb node-st, kus igal nodel on mingi väärtus ning alamnoded ja üks ülemnode. On ka root node, millel ei ole ülemnode.
+Abstraktne andmetüüp. Koosneb node-st, kus igal nodel on mingi väärtus ning alamnoded ja üks ülemnode. On ka root node, millel ei ole ülemnode. Ei sisalda tsüklit.

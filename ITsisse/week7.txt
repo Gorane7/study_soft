@@ -32,7 +32,7 @@ Sisendsignaal protsessorile, mis nõuab kohest vastust. Protsessor salvestab end
 Mäluhaldustehnoloogia, kus põhimällu kopeeritakse ainult need osad, mida programmil parajasti vaja on, muid osasid hoitakse kõvakettal. Lubab jooksutada programme, mis nõuavad rohkem mälu, kui põhimälus füüsiliselt on.
 
 12: Tekstitöötlus
-Jah
+Lihtsama editoriga peamiselt teksti sisu, redaktoriga ka rohkem tema vorminduse muutmine.
 
 13: Lihttekst
 Kogu info ainult tekstina. Võib sisaldada kujundusmärgendeid, lõppvarianti kuvab mõni teine rakendus. HTML, Markdown, LaTeX, PostScript. Hiirt pole vaja, rõhk sisul, mitte vormil, tulemuseni jõuab kiiresti, ebamugav lugeda, lõpptulemust pole kohe näha, nõuab süntaksi tundmist, rohkem kirjutamist.
@@ -50,7 +50,7 @@ American Standard Code for Information Interchange. 7 bitine tähemärkide tabel
 Proovis ühtsustada kõiki erinevaid tähtede kodeerimis viise, mis olid eri maailma osades tekkinud. Üle 128 000 sümboli. Eri kodeerimisviisid: UTF-8, UTF-16, UTF-32. UTF-8 on pmst ASCII, 0-127 ongi ASCII. UTF-16 saab enamusi levinumaid sümboleid. UTF-32 saab kõiki.
 
 18: UTF-8
-UTF-8 on pmst ASCII, 0-127 ongi ASCII. UTF-16 saab enamusi levinumaid sümboleid. UTF-32 saab kõiki.
+UTF-8 kirjeldab enamlevinud tähemärke ASCII tähestiku abil, 0-127 osa on ASCII. UTF-16 ja UTF-32 kirjeldavad kõiki tähemärke ning erinevad töötlemise kiiruse vs hoiustamise lihtsuse poolest.
 
 19: Latex
 Dokumentide ettevalmistussüsteem, mis kasutab märgenduskeelt ja TeX-programmi. LaTeX dokumenti ette valmistades kirjeldab autor dokumendi loogilise struktuuri tavaliste märksõnade abil, nagu peatükk, osa, tabel, joonis, valem jms. Teksti ja dokumendi muude elementide paigutuse eest hoolitseb LaTeX süsteem.

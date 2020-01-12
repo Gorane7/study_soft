@@ -29,7 +29,7 @@ Väitlus, kus etteantud väidetest (eeldustest) paratamatult järeldub uus väid
 Loogiliste sidesõnade abil lihtsatest lausetest keerulisemate kokku panemine. Ja nende kirjeldamine sümbolitega / matemaatiliselt. Loogikatehted on funktsioonid tõeväärtuste peal. &, V, -, ==, =>
 
 9: Pascal
-Kristlik filosoof Blaise Pascal (1623-1662). 1640 tegi aritmeetilise masina, mis liitis ja lahutas. (tegi umbes 50 tükki)
+Filosoof Blaise Pascal (1623-1662). 1640 tegi aritmeetilise masina, mis liitis ja lahutas. (tegi umbes 50 tükki)
 
 10: Leibniz
 Saksa filosoof Gottfried Wilhelm Leibniz (1646-1716). 1671 tegi Leibnizi arvuti, mis liitis, lahutas, korrutas ja jagas. Lõi Boole’ga sarnase loogikasüsteemi, mis vajus unustusse. Püüdis luua universaalset sümbolkeelt ja seda keelt kasutavat “arutlemise aritmeetikat”.

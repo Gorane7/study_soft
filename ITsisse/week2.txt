@@ -1,5 +1,5 @@
 1: Transistor
-1947 Bell Telephone Laboratories: William Shockley, Walter Brattain, John Bardeen loovad esimese transistori. Kasutab pooljuhte, et elektrisignaale kontrollida. Saab kasutada signaali võimendamiseks (nõrk signaal määrab kui suur osa tugevast signaalist läbi läheb) või lülitina (signaal määrab, kas mingi teine signaal läheb läbi või mitte). “base” ja “emitter” vahel olev vool määrab ära kui palju voolu on “collector” ja “emitter” vahel.
+1947 Bell Telephone Laboratories: William Shockley, Walter Brattain, John Bardeen loovad esimese transistori. Kasutab pooljuhte, et elektrisignaale kontrollida. Saab kasutada signaali võimendamiseks (nõrk signaal määrab, kui suur osa tugevast signaalist läbi läheb) või lülitina (signaal määrab, kas mingi teine signaal läheb läbi või mitte). “base” ja “emitter” vahel olev vool määrab ära kui palju voolu on “collector” ja “emitter” vahel.
 
 2: Samuel
 Arthur Samuel lõi 1952 aastal esimese (USAs esimese) AI programmi (mis ka päriselt mingi arvuti peal jooksis), mis mängis kabet. IBM 701 oli arvuti, mille peal jooksis.

@@ -47,7 +47,7 @@ Esimene “spreadsheet” tüüpi programm isiklikele arvutitele. 1979 arendasid
 Symbolics firma asutati 1980 aastal. Tootis spetsiaalset riistvara LISP programmide (enamasti AI) efektiivseks jooksutamiseks. 21 asutajat, enamasti MIT AI Labist. 1986 aastaks oli tulu 35 miljonit, peale seda vähenes kiiresti. 1988 aastal maksis Symbolics masin 36 000 ja 125 000 dollari vahel.
 
 16: IBM PC
-1980 aastal palkab IBM 12 inseneri “Project Chess” jaoks, et ehitatada / disainida mikroarvuti. IBM palub Bill Gatesil kirjutada OS nende PC jaoks. Bill Gates teeb mingit BSi, kus ostab 10 000 dollari eest mujalt tarkvara ja selle põhjal teeb IBMile nende OSi. 1981: IBM kuulutab välja IBM 5150 PC Personal Computeri. 4.77 MHz Intel 8088 CPU, 64KB RAM, 40KB ROM, 5.25 tolline floppy drive (160KB), PC-DOS 1.0 (Microsofti MS-DOS). Maksis 3000 dollarit. Microsoft BASIC, VisiCalc, UCSD Pascal, CP/M-86, ja Easywriter 1.0 on ka kaasas. (või siis lisaraha eest, kokku on 6000 dollarit?) IBM kuulutab ka CGA graafikakaardi välja, 640x200 resolutsioon 16 värviga. Microsoft ostis DOC õigused Seattle Computer Productsilt ja nimetab ümber MS-DOSiks.
+1980 aastal palkab IBM 12 inseneri “Project Chess” jaoks, et ehitatada / disainida mikroarvuti. IBM palub Bill Gatesil kirjutada OS nende PC jaoks. Bill Gates teeb mingit BSi, kus ostab 10 000 dollari eest mujalt tarkvara ja selle põhjal teeb IBMile nende OSi. 1981: IBM kuulutab välja IBM 5150 PC Personal Computeri. 4.77 MHz Intel 8088 CPU, 64KB RAM, 40KB ROM, 5.25 tolline floppy drive (160KB), PC-DOS 1.0 (Microsofti MS-DOS). Maksis 3000 dollarit. Microsoft BASIC, VisiCalc, UCSD Pascal, CP/M-86, ja Easywriter 1.0 on ka kaasas. (või siis lisaraha eest, kokku on 6000 dollarit?) IBM kuulutab ka CGA graafikakaardi välja, 640x200 resolutsioon 16 värviga. Microsoft ostis DOS õigused Seattle Computer Productsilt ja nimetab ümber MS-DOSiks.
 
 17: Sun
 1982 SUN Microsystems. (Stanford University Network). Moto: “Network is the computer”. Neli töötajat: Khosla, McNealy, Joy, Bechtolsheim. Esimesel tootel on TCP/IP (seda EI leiutanud Sun microsystems). SUN-2 on Motorola 68010 prose ja Multibus. 4MB mälu ja 400MB Fujitsu M2351 Eagle disk. 1982 leiutas / tegi Sun Network File Systemi (NFS).
@@ -80,7 +80,7 @@ Investeerimine turvameetmetesse, mis tegelikult ei aita eriti turvalisemaks teha
 “Malicious software”. Tarkvara, mis on tehtud eesmärgiga arvutile või serveile kahju tekitamiseks.
 
 23: Cookie
-Hulk andmeid, mida veebileht tekitab ja veebibrauser salvestab. Nt login info, game save, eelistused.
+Hulk andmeid, mida veebileht tekitab ja veebibrauser (client) salvestab. Nt login info, game save, eelistused.
 
 24: Phishing
 Interneti kaudu (tavaliselt email), kellegagi ühenduse võtmine teeseldes, et oled keegi teine ning seeläbi üritades saada inimeste login infot või panga PINe vms.

@@ -14,7 +14,7 @@ Interpretaator interpreteerib vahekoodi, aga kompileerib töö ajal osa sellest 
 Midagi kompileerimise ja interpreteerimise vahepealset. Kood muudetakse mingiks teiseks koodiks, mis ilmselt on “arvutilähedasem” ja kiirem, aga ei jookse ikkagi puhtalt riistvara peal vaid on vaja mingit vahepealset programmi, mis lähtekoodi jookseks. Java toimib nii, selle jaoks peab olema Java Virtual Machine.
 
 6: Programmeerimiskeeled vs kirjelduskeeled
-Proge: Fortran, Java, C, C#, Python, Javascript. Kirjeldus: HTML, CSS, SQL, XML, JSONV.
+Proge: Fortran, Java, C, C#, Python, Javascript. Kirjeldus: HTML, CSS, SQL, XML, JSON.
 
 7: JSON
 JavaScript Object Notation. Andmete hoiustamiseks. Lihtne inimestele lugeda, aga lihtne ka masinatele genereerida ning parsida.

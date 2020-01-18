@@ -5,6 +5,7 @@ class Brain():
     def __init__(self):
         self.interface = CLI(self)
         self.open = True
+        self.course = None
 
         self.COMMANDS = {
             "exit": self.exit_command

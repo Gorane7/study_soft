@@ -1,7 +1,7 @@
 from CLI import CLI
 from course import Course
 
-class Brain():
+class Logic():
     def __init__(self):
         self.interface = CLI(self)
         self.open = True

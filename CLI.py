@@ -3,11 +3,11 @@ from termcolor import colored
 
 class CLI(Interface):
 
-    def __init__(self, brain):
+    def __init__(self, logic):
         print("Welcome to the basic command line interface.")
         self.command_colour = "blue"
         self.next_command_text_colour = "red"
-        self.brain = brain
+        self.logic = logic
 
         self.COMMANDS = {
             "help": [self.help_command, [], "Prints a list of available commands."],
@@ -33,7 +33,7 @@ class CLI(Interface):
             self.unknown_command(command)
 
     def exit_command(self):
-        self.brain.exit_command()
+        self.logic.exit_command()
 
     def help_command(self):
         for key, value in self.COMMANDS.items():
@@ -41,25 +41,24 @@ class CLI(Interface):
             if len(param_string) != 0:
                 param_string = " <" + param_string + ">"
             print(colored(key + param_string + ": ", self.command_colour) + value[2])
-        self.command_to_brain = None
 
     def set_course_command(self, course_name):
-        old_course = self.brain.course.name if self.brain.course else None
-        self.brain.set_course(course_name)
-        if self.brain.course:
+        old_course = self.logic.course.name if self.logic.course else None
+        self.logic.set_course(course_name)
+        if self.logic.course:
             if old_course:
-                if old_course != self.brain.course.name:
-                    print("Course switched from '" + old_course + "' to '" + self.brain.course.name + "'.")
+                if old_course != self.logic.course.name:
+                    print("Course switched from '" + old_course + "' to '" + self.logic.course.name + "'.")
                 else:
-                    print("Unable to switch to '" + course_name + "', the current course is still '" + self.brain.course.name + "'.")
+                    print("Unable to switch to '" + course_name + "', the current course is still '" + self.logic.course.name + "'.")
             else:
-                print("Course set to '" + self.brain.course.name + "'.")
+                print("Course set to '" + self.logic.course.name + "'.")
         else:
             print("Unable to set course to '" + course_name + "'.")
 
     def current_course_command(self):
-        if self.brain.course:
-            print("The current course is '" + self.brain.course.name + "'.")
+        if self.logic.course:
+            print("The current course is '" + self.logic.course.name + "'.")
         else:
             print("No course has been selected.")
 

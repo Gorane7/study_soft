@@ -1,8 +1,8 @@
-from brain import Brain
+from logic import Logic
 
 def main():
-    brain = Brain()
-    brain.run()
+    logic = Logic()
+    logic.run()
     exit()
 
 main()

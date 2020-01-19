@@ -1,10 +1,11 @@
 from interface import Interface
 from termcolor import colored
+from CLIpresentation import CLIPresentation
 
 class CLI(Interface):
 
     def __init__(self, logic):
-        print("Welcome to the basic command line interface.")
+        self.presentation = CLIPresentation()
         self.command_colour = "blue"
         self.next_command_text_colour = "red"
         self.logic = logic
@@ -40,7 +41,7 @@ class CLI(Interface):
             param_string = "> <".join(value[1])
             if len(param_string) != 0:
                 param_string = " <" + param_string + ">"
-            print(colored(key + param_string + ": ", self.command_colour) + value[2])
+            self.presentation.tell(colored(key + param_string + ": ", self.command_colour) + value[2])
 
     def set_course_command(self, course_name):
         old_course = self.logic.course.name if self.logic.course else None
@@ -48,29 +49,29 @@ class CLI(Interface):
         if self.logic.course:
             if old_course:
                 if old_course != self.logic.course.name:
-                    print("Course switched from '" + old_course + "' to '" + self.logic.course.name + "'.")
+                    self.presentation.tell("Course switched from '" + old_course + "' to '" + self.logic.course.name + "'.")
                 else:
-                    print("Unable to switch to '" + course_name + "', the current course is still '" + self.logic.course.name + "'.")
+                    self.presentation.tell("Unable to switch to '" + course_name + "', the current course is still '" + self.logic.course.name + "'.")
             else:
-                print("Course set to '" + self.logic.course.name + "'.")
+                self.presentation.tell("Course set to '" + self.logic.course.name + "'.")
         else:
-            print("Unable to set course to '" + course_name + "'.")
+            self.presentation.tell("Unable to set course to '" + course_name + "'.")
 
     def current_course_command(self):
         if self.logic.course:
-            print("The current course is '" + self.logic.course.name + "'.")
+            self.presentation.tell("The current course is '" + self.logic.course.name + "'.")
         else:
-            print("No course has been selected.")
+            self.presentation.tell("No course has been selected.")
 
     def unknown_command(self, command):
-        print(colored("'" + command + "'", self.command_colour) + " is an unknown command. Type " + colored("'help'", self.command_colour) + " for a list of available commands.")
+        self.presentation.tell(colored("'" + command + "'", self.command_colour) + " is an unknown command. Type " + colored("'help'", self.command_colour) + " for a list of available commands.")
 
     def wrong_number_of_arguments(self, command, given_number, correct_number):
         given_arguments = " argument." if given_number == 1 else " arguments."
         correct_arguments = " argument." if correct_number == 1 else " arguments."
-        print("Command " + colored("'" + command + "'", self.command_colour) + " exists, but has " + str(correct_number) + correct_arguments)
-        print("You entered " + str(given_number) + given_arguments)
+        self.presentation.tell("Command " + colored("'" + command + "'", self.command_colour) + " exists, but has " + str(correct_number) + correct_arguments)
+        self.presentation.tell("You entered " + str(given_number) + given_arguments)
 
     def loop(self):
-        command = input(self.BASIC_MESSAGE)
+        command = self.presentation.ask(self.BASIC_MESSAGE)
         self.give_command(command)

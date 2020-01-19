@@ -46,16 +46,16 @@ class CLI(Interface):
     def set_course_command(self, course_name):
         old_course = self.logic.course.name if self.logic.course else None
         self.logic.set_course(course_name)
-        if self.logic.course:
-            if old_course:
-                if old_course != self.logic.course.name:
-                    self.presentation.tell("Course switched from '" + old_course + "' to '" + self.logic.course.name + "'.")
-                else:
-                    self.presentation.tell("Unable to switch to '" + course_name + "', the current course is still '" + self.logic.course.name + "'.")
-            else:
-                self.presentation.tell("Course set to '" + self.logic.course.name + "'.")
-        else:
-            self.presentation.tell("Unable to set course to '" + course_name + "'.")
+        self.presentation.tell(self.correct_feedback_after_setting_course(self.logic.course, old_course, course_name))
+
+    def correct_feedback_after_setting_course(self, current_course, old_course_name, given_name):
+        if current_course:
+            if old_course_name:
+                if old_course_name != current_course.name:
+                    return "Course switched from '" + old_course_name + "' to '" + current_course.name + "'."
+                return "Unable to switch to '" + given_name + "', the current course is still '" + current_course.name + "'."
+            return "Course set to '" + current_course.name + "'."
+        return "Unable to set course to '" + given_name + "'."
 
     def current_course_command(self):
         if self.logic.course:
